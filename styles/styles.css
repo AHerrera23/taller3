@@ -69,18 +69,23 @@ body {
   padding: 20px;
   height: 70%;
 }
+.inputNombre{
+  background-color: #f6f6f6;
+  border-radius: 16px;
+  height: 20px;
+}
 .itemPaciente {
   display: none;
   flex-direction: column;
   grid-area: inicio;
   grid-column: 2/6;
   grid-row: 2/6;
-  margin-top: 20px;
+  margin-top: 16px;
   border-radius: 15px;
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.2);
   -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.2);
   -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.2);
-  background-color: #4c3bcf;
+  background-color: #0C6E7B;
   color: #f6f6f6;
   align-items: center;
   padding: 15px;
