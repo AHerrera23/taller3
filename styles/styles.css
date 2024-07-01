@@ -3,6 +3,7 @@
   margin: 0;
 }
 body {
+  height: auto;
   background: #402E7A;
   color: #09111d;
 }
@@ -11,7 +12,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr 15% 15% 1fr 1fr;
   row-gap: 5px;
-  grid-template-rows: 10% 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 10% 1fr 1fr 1fr 1fr ;
   height: 100vh;
 }
 .barra {
