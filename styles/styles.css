@@ -4,7 +4,7 @@
   padding: 0;
 }
 body {
-  height: auto;
+  height: 100vh;
   background: #402E7A;
   color: #09111d;
 }
@@ -62,7 +62,10 @@ body {
 }
 @media only screen and (max-width: 800px) {
   body{
-    height: 100vh;
+    height: 90vh;
+  }
+  .container{
+    height: 90vh;
   }
   .item {
     margin-top: 20%;
