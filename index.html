@@ -6,11 +6,18 @@
     <title>BioFuturo</title>
     <link rel="icon" href="images/logoBioFuturo008.png" type="image/png" />
     <link rel="stylesheet" href="styles/styles.css" />
+    <!-- tipografia -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=MuseoModerno:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div class="container">
       <div class="barra">
-        <h1>BioFuturo</h1>
+        <img src="images/biofuturo.png" alt="" />
       </div>
       <div class="item" id="card">
         <h2>Ingresa tu nombre en el siguiente espacio.</h2>
@@ -19,18 +26,37 @@
         <input
           type="text"
           id="nombreUsuario"
+          class="inputNombre"
           autocomplete="name"
           value=""
           required
         />
         <br />
         <!-- boton para enviar los datos cargados -->
-        <input id="boton" type="submit" value="Ingresar" onClick="test()" />
+        <input
+          id="boton"
+          class="btn"
+          type="submit"
+          value="Ingresar"
+          onClick="test()"
+        />
         <h4 id="error"></h4>
       </div>
       <div class="itemPaciente" id="cardPaciente">
         <h2 id="paciente"></h2>
+        <div class="elementos">
+          <img src="images/test.png" alt="">
+          <div class="textos">
+            <h3>ajsdhgaisdb</h3>
+            <h3>ajsdhgaisdb</h3>
+            <h3>ajsdhgaisdb</h3>
+          </div>
+        </div>
+        <video class="video" loop="true" muted autoplay width="300px">
+          <source src="videos/Electrocardio_2.mp4">
+        </video>
       </div>
+    </div>
     <script src="js/main.js"></script>
   </body>
 </html>

@@ -1,3 +1,27 @@
+h1{
+  font-family: "museoModerno" sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+}
+h2{
+  font-family: "museoModerno" sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+}
+h3{
+  font-family: "museoModerno" sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+}
+span{
+  color: #FFF455;
+  font-weight: 900;
+}
+p{
+  font-family: "museoModerno" sans-serif;
+  font-weight: 100;
+  font-size: 15px;
+}
 * {
   box-sizing: border-box;
   margin: 0;
@@ -5,15 +29,17 @@
 }
 body {
   height: 100vh;
-  background: #402E7A;
+  background: #402e7a;
   color: #09111d;
+  font-family: "Roboto", sans-serif;
 }
+
 .container {
   z-index: 2;
   display: grid;
   grid-template-columns: 1fr 1fr 15% 15% 1fr 1fr;
   row-gap: 5px;
-  grid-template-rows: 5% 1fr 1fr 1fr 1fr ;
+  grid-template-rows: 10% 1fr 1fr 1fr 1fr;
   height: 100vh;
 }
 .barra {
@@ -23,24 +49,24 @@ body {
   grid-row: 1;
   justify-content: center;
   align-items: center;
-  background-color: #4B70F5;
-  color:#050707;
+  background-color: #19172d;
 }
 .item {
   display: flex;
   flex-direction: column;
   grid-area: inicio;
   grid-column: 3/5;
-  grid-row: 2/6;
+  grid-row: 3/5;
   border-radius: 15px;
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.2);
   -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.2);
   -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.2);
-  background-color: #29519F;
-  color: #050707;
+  background-color: #4c3bcf;
+  color: #f6f6f6;
   align-items: center;
+  text-align: center;
   margin-top: 10%;
-  padding: 15px;
+  padding: 20px;
   height: 70%;
 }
 .itemPaciente {
@@ -53,18 +79,51 @@ body {
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.2);
   -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.2);
   -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.2);
-  background-color:  #3DC2EC;
+  background-color: #4c3bcf;
+  color: #f6f6f6;
   align-items: center;
   padding: 15px;
 }
-.off{
+.btn{
+  font-family: "museoModerno" , sans-serif;
+  font-weight: bold;
+  color: #f6f6f6;
+  background-color: #19172d;
+  height: 30px;
+  width: 80px ;
+  border-radius:  20px;
+  transition: animate 15s ease-in;
+}
+.btn:hover{
+  background-color: #3dc2ec;
+}
+.video{
+  border-radius: 20px;
+}
+.off {
   display: none;
 }
+.elementos{
+  padding: 24px;
+  display: flex;
+  flex-direction: row;
+  width: 320px;
+}
+.elementos img{
+  height: 300px;
+}
+.elementos .textos{
+  padding-left: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+}
 @media only screen and (max-width: 800px) {
-  body{
+  body {
     height: 90vh;
   }
-  .container{
+  .container {
     height: 90vh;
   }
   .item {
