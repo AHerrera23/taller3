@@ -22,8 +22,8 @@ console.log(user)
 console.log(typeof user)
 card.style.display="none"
 cardPaciente.style.display="flex"
-nombrePaciente.innerHTML="Bienvenido " + "<span>"+user+"</span>"
-valor.innerHTML=valorEntero
+nombrePaciente.innerHTML="Bienvenido a BioFuturo: <br> " + "<span>"+user+"</span>"
+valor.innerHTML="% "+valorEntero
 if(valorEntero>=0 && valorEntero<=20){
     valor.style.color="green"
 }else if(valorEntero>=20 && valorEntero <=40){
@@ -31,7 +31,7 @@ if(valorEntero>=0 && valorEntero<=20){
 }else if(valorEntero>=40){
     valor.style.color="red"
 }
-valor1.innerHTML=valorEntero1
+valor1.innerHTML="% "+valorEntero1
 if(valorEntero1>=0 && valorEntero1<=20){
     valor1.style.color="green"
 }else if(valorEntero1>=20 && valorEntero1 <=40){
@@ -39,7 +39,7 @@ if(valorEntero1>=0 && valorEntero1<=20){
 }else if(valorEntero1>=40){
     valor1.style.color="red"
 }
-valor2.innerHTML=valorEntero2
+valor2.innerHTML="% "+valorEntero2
 if(valorEntero2>=0 && valorEntero2<=20){
     valor2.style.color="green"
 }else if(valorEntero2>=20 && valorEntero2 <=40){

@@ -90,6 +90,7 @@ body {
   grid-area: inicio;
   grid-column: 2/6;
   grid-row: 2/6;
+  height: 80vh;
   margin-top: 16px;
   border-radius: 15px;
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.2);
@@ -100,13 +101,17 @@ body {
   align-items: center;
   padding: 15px;
 }
+.itemPaciente h2{
+  text-align: center;
+  font-weight: 700;
+}
 .btn{
   font-family: "museoModerno" , sans-serif;
   font-weight: bold;
   color: #f6f6f6;
   background-color: #19172d;
-  height: 30px;
-  width: 80px ;
+  height: 35px;
+  width: 195px ;
   border-radius:  20px;
   transition: animate 15s ease-in;
 }
@@ -123,9 +128,10 @@ body {
   padding: 24px;
   display: flex;
   flex-direction: row;
-  width: 320px;
+  width: 100vw;
 }
 .elementos img{
+  padding-left: 5%;
   height: 300px;
 }
 .elementos .textos{
@@ -133,7 +139,9 @@ body {
   display: flex;
   flex-direction: column;
   gap: 20px;
-
+}
+.elementos .textos h3{
+  font-weight: 700;
 }
 @media only screen and (max-width: 800px) {
   body {
@@ -144,7 +152,9 @@ body {
   }
   .item {
     margin-top: 20%;
-    grid-column: 2/6;
+    margin-left: 10%;
+    width: 80%;
+    grid-column: 1/7;
   }
   .itemPaciente {
     width: 100vw;
