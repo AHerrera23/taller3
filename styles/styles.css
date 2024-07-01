@@ -59,7 +59,7 @@ body {
 .off{
   display: none;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   body{
     height: 100vh;
   }
@@ -69,21 +69,5 @@ body {
   }
   .itemPaciente {
     width: 100vw;
-  }
-  .particles span {
-    width: 20px; /* Reduce el tamaño de las partículas */
-    height: 20px;
-    animation-duration: calc(150s / var(--i)); /* Ajusta la duración de la animación */
-  }
-  @keyframes animate {
-    0% {
-      transform: translateY(100vh) scale(0) rotate(90deg);
-    }
-    20% {
-      transform: translateY(50vh) scale(1) rotate(0deg);
-    }
-    100% {
-      transform: translateY(-100vh) scale(0.5) rotate(360deg);
-    }
   }
 }
