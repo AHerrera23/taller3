@@ -93,9 +93,6 @@ body {
   height: 80vh;
   margin-top: 16px;
   border-radius: 15px;
-  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.2);
-  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.2);
-  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.2);
   background-color: #4c3bcf;
   color: #f6f6f6;
   align-items: center;
@@ -157,6 +154,9 @@ body {
     grid-column: 1/7;
   }
   .itemPaciente {
+    margin-top: 0;
+    border-radius: 0;
     width: 100vw;
+    height: 80vh;
   }
 }
