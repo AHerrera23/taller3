@@ -42,7 +42,12 @@ body {
   color: #09111d;
   font-family: "Roboto", sans-serif;
 }
-
+.videoFondo{
+  padding-bottom: 20px;
+  z-index: -1;
+  position: absolute;
+  height: 100vh;
+}
 .container {
   z-index: 2;
   display: grid;
