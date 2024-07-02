@@ -161,10 +161,10 @@ body {
 }
 @media only screen and (max-width: 800px) {
   body {
-    height: 90vh;
+    height: 80vh;
   }
   .container {
-    height: 90vh;
+    height: 100vh;
   }
   .itemPaciente {
     margin-top: 0;
