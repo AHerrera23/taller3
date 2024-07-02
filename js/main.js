@@ -22,7 +22,7 @@ console.log(user)
 console.log(typeof user)
 card.style.display="none"
 cardPaciente.style.display="flex"
-nombrePaciente.innerHTML="Bienvenido a BioFuturo: <br> " + "<span>"+user+"</span>"
+nombrePaciente.innerHTML="Buenas tardes:" + " <span>"+user+"</span> <br>¿Como te sentis el dia de hoy?"
 valor.innerHTML="% "+valorEntero
 if(valorEntero>=0 && valorEntero<=20){
     valor.style.color="green"

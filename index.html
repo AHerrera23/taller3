@@ -16,35 +16,47 @@
   </head>
   <body>
     <div class="container">
-      <div class="barra">
+      <div class="barra" id="barraNav">
         <img src="images/biofuturo.png" alt="" />
       </div>
       <div class="item" id="card">
-        <h2>Ingresa tu <span>nombre</span> en el siguiente espacio.</h2>
-        <br />
-        <!-- input que recupera el nombre del usuario -->
-        <input
-          type="text"
-          id="nombreUsuario"
-          class="inputNombre"
-          autocomplete="name"
-          value=""
-          required
-        />
-        <br />
-        <!-- boton para enviar los datos cargados -->
-        <input
-          id="boton"
-          class="btn"
-          type="submit"
-          value="Ingresar"
-          onClick="test()"
-        />
+        <div class="elementosInicio">
+          <h1>Bienvenido a BioFuturo.</h1>
+          <br />
+          <p>
+            Ingrese sus datos y acceda a su informacion medica atravez de
+            BioParche.
+          </p>
+          <br />
+          <!-- input que recupera el nombre del usuario -->
+          <div class="inputsUser">
+            <h3>Ingresa tu nombre</h3>
+            <input
+              type="text"
+              id="nombreUsuario"
+              class="inputNombre"
+              autocomplete="name"
+              placeholder="Ingresa tu nombre"
+              value=""
+              required
+            />
+            <br />
+            <!-- boton para enviar los datos cargados -->
+            <input
+              id="boton"
+              class="btn"
+              type="submit"
+              value="Ingresar"
+              onClick="test()"
+            />
+          </div>
+        </div>
       </div>
+
       <div class="itemPaciente" id="cardPaciente">
         <h2 id="paciente"></h2>
         <div class="elementos">
-          <img src="images/test.png" alt="">
+          <img src="images/test.png" alt="" />
           <div class="textos">
             <h3>Contaminacion en sangre: <span id="valor1"></span></h3>
             <h3>Presion arterial: <span id="valor2"></span></h3>
@@ -52,7 +64,7 @@
           </div>
         </div>
         <video class="video" loop="true" muted autoplay width="300px">
-          <source src="videos/Electrocardio_2.mp4">
+          <source src="videos/Electrocardio_2.mp4" />
         </video>
       </div>
     </div>
