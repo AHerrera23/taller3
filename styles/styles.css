@@ -120,8 +120,9 @@ body {
   font-weight: bold;
   color: #f6f6f6;
   background-color: #19172d;
-  height: 40px;
+  height: 45px;
   width: 330px;
+  font-size: 18px;
   border-radius: 20px;
   transition: animate 15s ease-in;
 }
