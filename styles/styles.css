@@ -43,10 +43,8 @@ body {
   font-family: "Roboto", sans-serif;
 }
 .videoFondo{
-  padding-bottom: 20px;
   z-index: -1;
   position: absolute;
-  height: 100vh;
 }
 .container {
   z-index: 2;
@@ -166,10 +164,16 @@ body {
   .container {
     height: 100vh;
   }
+  .item{
+    height: 90vh;
+  }
   .itemPaciente {
     margin-top: 0;
     border-radius: 0;
     width: 100vw;
-    height: 80vh;
+    height: 91vh;
+  }
+  .elementosInicio{
+    height: 50vh;
   }
 }
