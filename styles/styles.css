@@ -37,7 +37,6 @@ p {
   padding: 0;
 }
 body {
-  height: 100vh;
   background: #0065f9;
   color: #09111d;
   font-family: "Roboto", sans-serif;
@@ -157,15 +156,12 @@ body {
 .elementos .textos h3 {
   font-weight: 700;
 }
-@media only screen and (max-width: 800px) {
-  body {
-    height: auto;
-  }
+@media only screen and (max-width: 600px) {
   .container {
-    height: 70vh;
+    height: 60vh;
   }
   .item{
-    height: 100vh;
+    height: 88vh;
   }
   .itemPaciente {
     margin-top: 0;
