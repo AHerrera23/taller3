@@ -49,7 +49,6 @@ body {
   z-index: 2;
   display: grid;
   grid-template-columns: 1fr 1fr 15% 15% 1fr 1fr;
-  row-gap: 1px;
   grid-template-rows: 10% 1fr 1fr 1fr;
   height: 100vh;
 }
@@ -60,7 +59,10 @@ body {
   grid-row: 1;
   justify-content: center;
   align-items: center;
-  background-color: #f6f6f6;
+  background-color:#08080aad;
+}
+.barra img{
+  width: 250px;
 }
 .item {
   display: flex;
@@ -137,10 +139,18 @@ body {
 .off {
   display: none;
 }
-.elementos {
-  padding: 24px;
+.videos{
   display: flex;
   flex-direction: row;
+  padding-left: 15px;
+}
+.persona{
+  border-radius: 20px 0 0 20px;
+}
+.elementos {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
   width: 100vw;
 }
 .elementos img {

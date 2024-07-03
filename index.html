@@ -59,16 +59,20 @@
       <div class="itemPaciente" id="cardPaciente">
         <h2 id="paciente"></h2>
         <div class="elementos">
-          <img src="images/test.png" alt="" />
+          <div class="videos">
+            <video class="persona" loop="true" muted autoplay width="100px">
+              <source src="videos/persona.mp4">
+            </video>
+            <video class="video" loop="true" muted autoplay width="300px">
+              <source src="videos/Electrocardio_2.mp4" />
+            </video>
+          </div>
           <div class="textos">
             <h3>Contaminacion en sangre: <span id="valor1"></span></h3>
             <h3>Presion arterial: <span id="valor2"></span></h3>
             <h3>Dosis de miel: <span id="valor3"></span></h3>
           </div>
         </div>
-        <video class="video" loop="true" muted autoplay width="300px">
-          <source src="videos/Electrocardio_2.mp4" />
-        </video>
       </div>
     </div>
     <script src="js/main.js"></script>
