@@ -157,9 +157,6 @@ body {
   font-weight: 700;
 }
 @media only screen and (max-width: 600px) {
-  body{
-    min-height:800px ;
-  }
   .container {
     height: 800px;
   }
