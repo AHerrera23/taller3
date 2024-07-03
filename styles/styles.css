@@ -1,21 +1,22 @@
 h1 {
-  font-family: "museoModerno" sans-serif;
+  font-family: "poppins" sans-serif;
   font-weight: 700;
   font-size: 42px;
 }
 h2 {
-  font-family: "museoModerno" sans-serif;
+  font-family: "poppins" sans-serif;
   font-weight: 500;
   font-size: 20px;
 }
 h3 {
-  font-family: "museoModerno" sans-serif;
+  font-family: "poppins" sans-serif;
   font-weight: 300;
   font-size: 15px;
 }
 span {
   color: #00ffff;
   font-weight: 900;
+  font-family: "poppins" sans-serif;
 }
 #valor1 {
   color: #fff455;
@@ -27,7 +28,6 @@ span {
   color: #fff455;
 }
 p {
-  font-family: "museoModerno" sans-serif;
   font-weight: 100;
   font-size: 20px;
 }
@@ -39,7 +39,7 @@ p {
 body {
   background: #0065f9;
   color: #09111d;
-  font-family: "Roboto", sans-serif;
+  font-family: "poppins", sans-serif;
 }
 .videoFondo{
   z-index: -1;
@@ -49,6 +49,7 @@ body {
   z-index: 2;
   display: grid;
   grid-template-columns: 1fr 1fr 15% 15% 1fr 1fr;
+  row-gap: 1px;
   grid-template-rows: 10% 1fr 1fr 1fr;
   height: 100vh;
 }
@@ -59,7 +60,7 @@ body {
   grid-row: 1;
   justify-content: center;
   align-items: center;
-  background-color:#08080aad;
+  background-color: #f6f6f6;
 }
 .barra img{
   width: 250px;
@@ -165,6 +166,25 @@ body {
 }
 .elementos .textos h3 {
   font-weight: 700;
+}
+.itemCura{
+  display: flex;
+  flex-direction: row;
+  padding-left: 12px;
+  align-items: center;
+  margin-top: 20px;
+  width: 90%;
+  height: 70px;
+  background-color: #011c45;
+  border-radius: 20px;
+  gap: 20px;
+  
+}
+.imagenCura{
+  height: 50px;
+  background-color: #f6f6f6;
+  width: 50px;
+  border-radius: 10px;
 }
 @media only screen and (max-width: 600px) {
   .container {
