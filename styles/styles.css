@@ -51,7 +51,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr 15% 15% 1fr 1fr;
   row-gap: 1px;
-  grid-template-rows: 10% 1fr 1fr 1fr 1fr;
+  grid-template-rows: 10% 1fr 1fr 1fr;
   height: 100vh;
 }
 .barra {
@@ -159,10 +159,10 @@ body {
 }
 @media only screen and (max-width: 800px) {
   body {
-    height: 80vh;
+    height: auto;
   }
   .container {
-    height: 100vh;
+    height: 70vh;
   }
   .item{
     height: 90vh;
