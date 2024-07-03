@@ -73,9 +73,6 @@ body {
   grid-area: inicio;
   grid-column: 1/7;
   grid-row: 2/7;
-  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.2);
-  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.2);
-  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.2);
   color: #f6f6f6;
   align-items: center;
   text-align: left;
