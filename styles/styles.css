@@ -189,16 +189,16 @@ body {
 }
 @media only screen and (max-width: 600px) {
   .container {
-    height: 80vh;
+    height: 100vh;
   }
   .item{
-    height: 100vh;
+    height: 825px;
   }
   .itemPaciente {
     margin-top: 0;
     border-radius: 0;
     width: 100vw;
-    height: 100vh;
+    height: 825px;
   }
   .elementosInicio{
     height: 50vh;
