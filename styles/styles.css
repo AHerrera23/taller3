@@ -161,13 +161,13 @@ body {
     height: 80vh;
   }
   .item{
-    height: 80vh;
+    height: 100vh;
   }
   .itemPaciente {
     margin-top: 0;
     border-radius: 0;
     width: 100vw;
-    height: 91vh;
+    height: 100vh;
   }
   .elementosInicio{
     height: 50vh;
