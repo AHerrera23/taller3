@@ -21,7 +21,7 @@ console.log(user)
 console.log(typeof user)
 card.style.display="none"
 cardPaciente.style.display="flex"
-nombrePaciente.innerHTML="Hola" + " <span>"+user+"</span> <br>Este es tu estado de salud hoy zorra"
+nombrePaciente.innerHTML="Hola" + " <span>"+user+"</span> <br>Este es tu estado de salud hoy."
 dosis.innerHTML='Porcentaje de dosis: <br> En sangre: ' +' <span class="amarillo">'+randomInt(0,5)+'%</span>' +'<br>'+'En dispositivo: ' +' <span class="amarillo">'+randomInt(98,100)+'%</span>'
 monoxido.innerHTML='Porcentaje de monoxido en sangre: ' + '<span>'+randomInt(70,90)+'%</span>'
 saturacion.innerHTML='Porcentaje de saturacion de oxigeno en sangre: ' + '<span>'+randomInt(40,80)+'%</span>'
